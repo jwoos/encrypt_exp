@@ -21,3 +21,5 @@ File.open(out_file, "w") do |x|
   x << IO.readlines(in_file)[0]
   x << Base64.encode64(encrypted)
 end
+
+puts "Succesfully encrypted".green

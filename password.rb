@@ -31,6 +31,7 @@ else
       x << Base64.encode64(encrypted)
     end
 
+    puts "Succesfully encrypted".green
   when "decrypt"
     in_file = File.path(name)
     input_data =Base64.decode64( IO.readlines(in_file)[1].chomp)
@@ -51,6 +52,7 @@ else
       x << decrypted
     end
 
+    puts "Succesfully decrypted".green
   else
     puts "Error".red
   end #end switch statement

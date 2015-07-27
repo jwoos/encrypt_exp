@@ -21,3 +21,5 @@ File.open(out_file, "w") do |x|
   x << IO.readlines(in_file)[0]
   x << decrypted
 end
+
+puts "Succesfully decrypted".green
