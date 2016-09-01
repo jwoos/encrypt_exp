@@ -1,4 +1,3 @@
-# Ruby password manager
 It can encrypt and decrypt using AES 256 bit CBC mode
 
 to encrypt
@@ -6,7 +5,3 @@ to encrypt
 
 to decrypt
 `irb password.rb FILENAME decrypt`
-
-## Things to work on
-1. GUI??
-2. Consolidated list of passwords
